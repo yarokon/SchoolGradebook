@@ -1,0 +1,42 @@
+<form
+  class="form"
+  (ngSubmit)="onSubmit(f)"
+  #f="ngForm"
+>
+  <md-input-container class="full-width">
+    <input
+      mdInput
+      placeholder="First name"
+      name="firstName"
+      ngModel
+      required
+    >
+  </md-input-container>
+  <md-input-container class="full-width">
+    <input
+      mdInput
+      placeholder="Last name"
+      name="lastName"
+      ngModel
+      required
+    >
+  </md-input-container>
+
+  <md-input-container>
+    <input
+      mdInput [mdDatepicker]="picker"
+      placeholder="Date of birth"
+      name="dateOfBirth"
+      ngModel
+      required
+    >
+    <button mdSuffix [mdDatepickerToggle]="picker"></button>
+  </md-input-container>
+  <md-datepicker #picker ></md-datepicker>
+  
+  <button
+    md-raised-button
+    type="submit"
+    [disabled]="f.invalid"
+  >Create</button>
+</form>

@@ -1,0 +1,5 @@
+{"_id":{"$oid":"5962a4554e1f140cbc13724a"},"firstName":"Yaroslav","lastName":"Shugailo","dateOfBirth":{"$date":"1991-02-05T22:00:00.000Z"},"__v":0}
+{"_id":{"$oid":"5962a5174e1f140cbc13724d"},"firstName":"Igor","lastName":"Vorobij","dateOfBirth":{"$date":"1995-03-31T21:00:00.000Z"},"__v":0}
+{"_id":{"$oid":"5962a5684e1f140cbc13724e"},"firstName":"Oksana","lastName":"Markovych","dateOfBirth":{"$date":"1995-07-18T21:00:00.000Z"},"__v":0}
+{"_id":{"$oid":"5962a58e4e1f140cbc13724f"},"firstName":"Christina","lastName":"Yaremchuk","dateOfBirth":{"$date":"1993-11-24T22:00:00.000Z"},"__v":0}
+{"_id":{"$oid":"5962a6004e1f140cbc137250"},"firstName":"Nazar","lastName":"Kalychak","dateOfBirth":{"$date":"1994-08-30T21:00:00.000Z"},"__v":0}

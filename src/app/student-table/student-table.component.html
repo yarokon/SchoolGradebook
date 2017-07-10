@@ -1,0 +1,17 @@
+<table *ngIf="students">
+  <tr>
+    <th>id</th>
+    <th>first name</th>
+    <th>last name</th>
+    <th>date of birth</th>
+  </tr>
+  <tr
+    *ngFor="let student of students"
+    (click)="deleteStudent(student._id)"
+  >
+    <td>{{ student._id }}</td>
+    <td>{{ student.firstName }}</td>
+    <td>{{ student.lastName }}</td>
+    <td>{{ student.dateOfBirth | date}}</td>
+  </tr>
+</table>

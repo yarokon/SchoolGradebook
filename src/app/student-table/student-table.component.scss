@@ -1,0 +1,33 @@
+table {
+  margin: 25px auto;
+  border-collapse: collapse;
+  border: 1px solid #eee;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+              0 3px 6px rgba(0,0,0,0.23);
+  tr {
+     &:hover {
+      background: #f4f4f4;
+      
+      td {
+        color: #555;
+        cursor: pointer;
+      }
+    }
+  }
+  th, td {
+    color: #999;
+    border: 1px solid #eee;
+    padding: 12px 35px;
+    text-align: center;
+    
+  }
+  th {
+    background: #607d8b;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 0.8em;
+    &.last {
+      border-right: none;
+    }
+  }
+}
